@@ -4,9 +4,9 @@ set -u
 
 OPENSSL_BIN="$HOME/oqs/bin/openssl"
 PROVIDER_PATH="$HOME/oqs/lib64/ossl-modules"
-DOMAIN_FILE="one.mil.domains.txt"
+DOMAIN_FILE="domains.txt"
 GROUP_FILE="pqc.groups.txt"
-OUTDIR="one.mil.finalPQCscan"
+OUTDIR="."
 SUMMARY_FILE="$OUTDIR/pqc.final.summary.csv"
 DEBUG_LOG="$OUTDIR/pqc.final.debug.log"
 TIMEOUT_DURATION="5s"
